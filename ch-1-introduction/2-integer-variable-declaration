@@ -1,0 +1,23 @@
+// standard input output library
+#include<stdio.h>
+
+// main function
+void main()
+{
+    // integer variable declaration
+    int a,b,c;
+    
+    a = 10;
+    
+    b = 20;
+    
+    c = 30;
+    
+    // %d is called format specifier and it used to display integer values on output window ( console or terminal window )
+    
+    printf("a = %d", a);
+    
+    printf("b = %d", b);
+    
+    printf("c = %d", c);
+}
